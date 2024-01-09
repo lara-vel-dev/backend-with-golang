@@ -12,7 +12,7 @@
   <h2>Table of content</h2>
   <ol>
     <li>
-      <a href="https://github.com/lara-vel-dev/backend-with-golang/tree/main?tab=readme-ov-file#installation"> Installation </a>
+      <a href="#installation"> Installation </a>
     </li>
   </ol>
 </div>
