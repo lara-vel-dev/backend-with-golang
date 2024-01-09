@@ -10,7 +10,7 @@
 
 <div>
   <h2>Installation</h2>  
-  <h3>MacOS using homebrew</h3>
+  <h3>MacOS using Homebrew</h3>
   <p>To install Go on MacOS using the terminal you can use the following command (in case you have previously installed homebrew).</p>
 </div>
 
@@ -19,8 +19,8 @@
 ```
 
 <div>
-  <h3>Windows using chocolatey</h3>
-  <p>To install Go on Windows using PowerShell you can use the following command (in case you have previously installed chocolatey).</p>
+  <h3>Windows using Chocolatey</h3>
+  <p>To install Go on Windows using PowerShell you can use the following command (in case you have previously installed Chocolatey).</p>
 </div>
 
 ```bash
@@ -35,6 +35,11 @@
 ```bash
   sudo apt install golang-go
 ```
+<div>
+  <h3>Download Go</h3>
+  <p>To download and install Go from the documentation, you can access the link below.</p>
+  <a href="https://go.dev/dl/">Download Go</a>
+</div>
 
 <div>
   <h3>Check installed Go version</h3>
