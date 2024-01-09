@@ -14,6 +14,11 @@
     <li>
       <a href="#installation"> Installation </a>
     </li>
+    <ol>
+      <li>
+        <a href="#macos-using-homebrew">MacOS using Homebrew</a>
+      </li>
+    </ol>
   </ol>
 </div>
 
