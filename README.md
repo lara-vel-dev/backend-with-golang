@@ -18,6 +18,12 @@
       <li>
         <a href="#macos-using-homebrew">MacOS using Homebrew</a>
       </li>
+      <li>
+        <a href="#windows-using-chocolatey">Windows using Chocolatey</a>
+      </li>
+      <li>
+        <a href="#linux-using-apt">Linux using apt</a>
+      </li>
     </ol>
   </ol>
 </div>
