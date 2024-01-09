@@ -24,6 +24,12 @@
       <li>
         <a href="#linux-using-apt">Linux using apt</a>
       </li>
+      <li>
+        <a href="#download-go">Download Go</a>
+      </li>
+      <li>
+        <a href="#download-go">Download Go</a>
+      </li>
     </ol>
   </ol>
 </div>
