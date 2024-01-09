@@ -9,6 +9,15 @@
 </div>
 
 <div>
+  <h2>Table of content</h2>
+  <ol>
+    <li>
+      <a href="https://github.com/lara-vel-dev/backend-with-golang/tree/main?tab=readme-ov-file#installation"> Installation </a>
+    </li>
+  </ol>
+</div>
+
+<div>
   <h2>Installation</h2>  
   <h3>MacOS using Homebrew</h3>
   <p>To install Go on MacOS using the terminal you can use the following command (in case you have previously installed homebrew).</p>
