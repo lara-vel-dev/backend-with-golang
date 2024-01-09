@@ -28,7 +28,7 @@
         <a href="#download-go">Download Go</a>
       </li>
       <li>
-        <a href="#download-go">Download Go</a>
+        <a href="#check-installed-go-version">Check installed Go version</a>
       </li>
     </ol>
   </ol>
