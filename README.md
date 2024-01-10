@@ -34,6 +34,11 @@
     <li>
       <a href="#introduction">Introduction</a>
     </li>
+    <ol>
+      <li>
+        <a href="#what-is-go">What is Go?</a>
+      </li>
+    </ol>
   </ol>
 </div>
 
