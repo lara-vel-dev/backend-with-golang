@@ -38,6 +38,9 @@
       <li>
         <a href="#what-is-go">What is Go?</a>
       </li>
+      <li>
+        <a href="#why-using-go">Why using Go?</a>
+      </li>
     </ol>
   </ol>
 </div>
