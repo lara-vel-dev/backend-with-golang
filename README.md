@@ -92,11 +92,11 @@
 <div align="justify">
   <h2>Introduction</h2>
   <h3>What is Go?</h3>
-  <img align="right" src="https://openupthecloud.com/wp-content/uploads/2020/01/Golang.png" alt="Golang Logo" width=500/>
+  <img align="right" src="https://openupthecloud.com/wp-content/uploads/2020/01/Golang.png" alt="Golang Logo" width=400/>
   <p>Go is an open-source programming language focused on simplicity, reliability, and efficiency. Go was originally designed at Google in 2007 by Rob Pike, and Ken Thompson and became an open-source project publicly in 2012. At the time, Google was growing quickly, and the code being used to manage its infrastructure was also growing quickly in both size and complexity. Programmers began to feel that this large and complex codebase was slowing them down so they decided that they needed a new programming language focused on simplicity and quick performance.
 
 </p>
   <br> <br>
-  <img align="left" src="https://fingers-site-production.s3.eu-central-1.amazonaws.com/uploads/images/szLui8773HimqPgfZcnOSt1jcqsUYcJlnaHepZ50.jpg" width=400/>
+  <img align="left" src="https://fingers-site-production.s3.eu-central-1.amazonaws.com/uploads/images/szLui8773HimqPgfZcnOSt1jcqsUYcJlnaHepZ50.jpg" width=300/>
   <p>Go is also a compiled and concurrent programming language, its syntax is a mix between C and Python. It is also statically typed, which means that the variable type cannot change its type throughout the program (it isn't necessary to declare the type, meaning it is dynamically typed or uses duck typing). It doesn't use the “;” but it does use curly braces to define a block of code. It stands out at the level of concurrency, in Go there are no threads as such but there are "Go routines" that are lighter threads (this helps optimize resources). It is more of a systems language than of applications. It's more useful for the Backend (at microservices or data processing). It allows object-oriented programming but not in the conventional way, it has no inheritance, and polymorphism will be done through interfaces. It doesn't have exceptions which adds unnecessary complexity, you have to validate a lot so that the application does not break.</p>
 </div>
