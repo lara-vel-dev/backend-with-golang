@@ -77,7 +77,7 @@
 
 <div>
   <h3>Check installed Go version</h3>
-  <p>Run the following command in order to check the version installed</p>
+  <p>Run the following command to check the installed version.</p>
 </div>
 
 ```bash
