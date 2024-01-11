@@ -9,7 +9,7 @@
 </div>
 
 <div>
-  <h2>Table of content</h2>
+  <h2>Table of contents</h2>
   <ol>
     <li>
       <a href="#installation"> Installation </a>
@@ -127,7 +127,85 @@
 
 <div align="justify">
   <h2>Syllabus</h2>
+  <details >
+  <summary>🐾 First steps 🐾</summary>
+  <br>
+    
+  <details >
+  <summary>🍼 The basics 🍼</summary>
+	
+  <br>
+  <p>🦫<a href=""> Hello World! </a></p>
+  <p>🦫<a href=""> Variables and data types </a></p>
+  <p>🦫<a href=""> Println function </a></p>
+  <p>🦫<a href=""> Operators </a></p>
+  <p>🦫<a href=""> Sequence of values </a></p>
+  <p>🦫<a href=""> Reading values </a></p>
   
+</details>
+  
+
+<details >
+  <summary>🔁 Flow controls 🔁</summary>
+	
+  <br>
+  <p>🦫<a href=""> Conditionals </a></p>
+  <p>🦫<a href=""> Switch </a></p>
+  <p>🦫<a href=""> Loops </a></p>
+  <p>🦫<a href=""> Break and Continue </a></p>
+</details>
+
+<details >
+  <summary>🛠️ Functions and pointers 🛠️</summary>
+	
+  <br>
+  <p>🦫<a href=""> Declaring functions </a></p>
+  <p>🦫<a href=""> Anonymous functions </a></p>
+  <p>🦫<a href=""> Panic functions </a></p>
+  <p>🦫<a href=""> Recursive functions </a></p>
+  <p>🦫<a href=""> Variadic functions </a></p>
+  <p>🦫<a href=""> Recover functions </a></p>
+  <p>🦫<a href=""> Pointers </a></p>
+  
+</details>
+
+<details >
+  <summary>🛠️ Data structures 🛠️</summary>
+	
+  <br>
+  <p>🦫<a href=""> Arrays </a></p>
+  <p>🦫<a href=""> Slices </a></p>
+  <p>🦫<a href=""> Maps </a></p>
+
+</details>
+
+<details >
+  <summary>⚙️ Structs, enums and interfaces ⚙️</summary>
+	
+  <br>
+  <p>🦫<a href=""> Structs </a></p>
+  <p>🦫<a href=""> Enums </a></p>
+  <p>🦫<a href=""> Interfaces </a></p>
+  <p>🦫<a href=""> Access modifiers </a></p>
+
+</details>
+
+<details >
+  <summary>📦 Packages 📦</summary>
+	
+  <br>
+  <p>🦫<a href=""> Create a package </a></p>
+  <p>🦫<a href=""> Documentation </a></p>
+  <p>🦫<a href=""> Imports </a></p>
+  <p>🦫<a href=""> Main </a></p>
+  <p>🦫<a href=""> Core packages </a></p>
+
+</details>
+
+  <p>🦫<a href=""> Code examples </a></p>
+
+</details>
+
 </div>
 
 <div>
