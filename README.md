@@ -42,6 +42,9 @@
         <a href="#why-using-go">Why using Go?</a>
       </li>
     </ol>
+    <li>
+      <a href="#syllabus">Syllabus</a>
+    </li>
   </ol>
 </div>
 
@@ -114,6 +117,17 @@
     <li><b>Has static typing:</b> Go’s method of storing variable values is more efficient than other languages which provides a higher memory and performance. If you define an int 32 variable in Go it takes four bytes of memory.</li>
     <li><b>Comprehensive programming tools:</b> As an open-source initiative, there are no issues in getting the necessary development tools. There are various editors, IDEs, and plugins that can be downloaded to <a href="https://go.dev/wiki/IDEsAndTextEditorPlugins">start with this language.</a></li>
   </ol>
+</div>
+
+<div>
+  <br/>
+</div>
+
+**[⬆ Back to top](#table-of-content)**
+
+<div align="justify">
+  <h2>Syllabus</h2>
+  
 </div>
 
 <div>
