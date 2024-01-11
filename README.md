@@ -93,7 +93,7 @@
   <br/>
 </div>
 
-**[⬆ Back to top](#table-of-content)**
+**[⬆ Back to top](#table-of-contents)**
 
 <div align="justify">
   <h2>Introduction</h2>
@@ -123,7 +123,7 @@
   <br/>
 </div>
 
-**[⬆ Back to top](#table-of-content)**
+**[⬆ Back to top](#table-of-contents)**
 
 <div align="justify">
   <h2>Syllabus</h2>
@@ -212,4 +212,4 @@
   <br/>
 </div>
 
-**[⬆ Back to top](#table-of-content)**
+**[⬆ Back to top](#table-of-contents)**
