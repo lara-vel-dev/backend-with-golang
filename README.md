@@ -52,7 +52,7 @@
 	    </a>
 	</li>
 	<li>
-     	   <a href="#">Threads</a>
+     	   <a href="#---------threads---------understanding-concurrency------goroutines------channels-function------code-examples--">Threads</a>
         </li>
 	<li>
      	   <a href="#">OOP</a>
@@ -231,7 +231,7 @@
     <summary>🧵 Threads 🧵</summary>
 	
    <br>
-   <p>🦫 <a href=""> Undestanding concurrency </a></p>
+   <p>🦫 <a href=""> Understanding concurrency </a></p>
    <p>🦫 <a href=""> Goroutines </a></p>
    <p>🦫 <a href=""> Channels function </a></p>
    <p>🦫 <a href=""> Code examples </a></p>
