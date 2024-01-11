@@ -256,6 +256,59 @@
 </details>
 </h3>
 
+<h3>
+    <details >
+    <summary>🧰 Backend 🧰</summary>
+	
+   <br>
+   <details >
+    <summary>⊱ Databases ⊰</summary>
+	
+   <br>
+   <p>🦫 <a href=""> SQL </a></p>
+   <p>🦫 <a href=""> NoSQL </a></p>
+   <p>🦫 <a href=""> Normalization rules </a></p>
+   <p>🦫 <a href=""> MySQL </a></p>
+   <p>🦫 <a href=""> PostgreSQL </a></p>
+   <p>🦫 <a href=""> MongoDB </a></p>
+   <p>🦫 <a href=""> GORM </a></p>
+   
+</details>
+<details >
+    <summary>📡 API 📡</summary>
+	
+   <br>
+   <p>🦫 <a href=""> REST </a></p>
+   <p>🦫 <a href=""> SOAP </a></p>
+   <p>🦫 <a href=""> Authentication </a></p>
+   
+</details>
+
+<details >
+    <summary>👾 Caching 👾</summary>
+	
+   <br>
+   <p>🦫 <a href=""> CDN </a></p>
+   <p>🦫 <a href=""> Server Side </a></p>
+   <p>🦫 <a href=""> Client Side </a></p>
+   
+</details>
+
+<details >
+    <summary>🧪 Testing 🧪</summary>
+	
+   <br>
+   <p>🦫 <a href=""> Testing principle </a></p>
+   <p>🦫 <a href=""> Logs, errors and performance </a></p>
+   <p>🦫 <a href=""> Unit testing </a></p>
+   <p>🦫 <a href=""> Integration test </a></p>
+  
+</details>
+   
+  <p>🦫 <a href=""> Code examples </a></p>
+</details>
+</h3>
+
 </div>
 
 <div>
