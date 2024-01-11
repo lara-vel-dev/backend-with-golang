@@ -138,12 +138,12 @@
   <summary>🍼 The basics 🍼</summary>
 	
   <br>
-  <p>🦫<a href=""> Hello World! </a></p>
-  <p>🦫<a href=""> Variables and data types </a></p>
-  <p>🦫<a href=""> Println function </a></p>
-  <p>🦫<a href=""> Operators </a></p>
-  <p>🦫<a href=""> Sequence of values </a></p>
-  <p>🦫<a href=""> Reading values </a></p>
+  <p>🦫 <a href=""> Hello World! </a></p>
+  <p>🦫 <a href=""> Variables and data types </a></p>
+  <p>🦫 <a href=""> Println function </a></p>
+  <p>🦫 <a href=""> Operators </a></p>
+  <p>🦫 <a href=""> Sequence of values </a></p>
+  <p>🦫 <a href=""> Reading values </a></p>
   
 </details>
   
@@ -152,23 +152,23 @@
   <summary>🔁 Flow controls 🔁</summary>
 	
   <br>
-  <p>🦫<a href=""> Conditionals </a></p>
-  <p>🦫<a href=""> Switch </a></p>
-  <p>🦫<a href=""> Loops </a></p>
-  <p>🦫<a href=""> Break and Continue </a></p>
+  <p>🦫 <a href=""> Conditionals </a></p>
+  <p>🦫 <a href=""> Switch </a></p>
+  <p>🦫 <a href=""> Loops </a></p>
+  <p>🦫 <a href=""> Break and Continue </a></p>
 </details>
 
 <details >
   <summary>🛠️ Functions and pointers 🛠️</summary>
 	
   <br>
-  <p>🦫<a href=""> Declaring functions </a></p>
-  <p>🦫<a href=""> Anonymous functions </a></p>
-  <p>🦫<a href=""> Panic functions </a></p>
-  <p>🦫<a href=""> Recursive functions </a></p>
-  <p>🦫<a href=""> Variadic functions </a></p>
-  <p>🦫<a href=""> Recover functions </a></p>
-  <p>🦫<a href=""> Pointers </a></p>
+  <p>🦫 <a href=""> Declaring functions </a></p>
+  <p>🦫 <a href=""> Anonymous functions </a></p>
+  <p>🦫 <a href=""> Panic functions </a></p>
+  <p>🦫 <a href=""> Recursive functions </a></p>
+  <p>🦫 <a href=""> Variadic functions </a></p>
+  <p>🦫 <a href=""> Recover functions </a></p>
+  <p>🦫 <a href=""> Pointers </a></p>
   
 </details>
 
@@ -176,9 +176,9 @@
   <summary>🛠️ Data structures 🛠️</summary>
 	
   <br>
-  <p>🦫<a href=""> Arrays </a></p>
-  <p>🦫<a href=""> Slices </a></p>
-  <p>🦫<a href=""> Maps </a></p>
+  <p>🦫 <a href=""> Arrays </a></p>
+  <p>🦫 <a href=""> Slices </a></p>
+  <p>🦫 <a href=""> Maps </a></p>
 
 </details>
 
@@ -186,10 +186,10 @@
   <summary>⚙️ Structs, enums and interfaces ⚙️</summary>
 	
   <br>
-  <p>🦫<a href=""> Structs </a></p>
-  <p>🦫<a href=""> Enums </a></p>
-  <p>🦫<a href=""> Interfaces </a></p>
-  <p>🦫<a href=""> Access modifiers </a></p>
+  <p>🦫 <a href=""> Structs </a></p>
+  <p>🦫 <a href=""> Enums </a></p>
+  <p>🦫 <a href=""> Interfaces </a></p>
+  <p>🦫 <a href=""> Access modifiers </a></p>
 
 </details>
 
@@ -197,16 +197,42 @@
   <summary>📦 Packages 📦</summary>
 	
   <br>
-  <p>🦫<a href=""> Create a package </a></p>
-  <p>🦫<a href=""> Documentation </a></p>
-  <p>🦫<a href=""> Imports </a></p>
-  <p>🦫<a href=""> Main </a></p>
-  <p>🦫<a href=""> Core packages </a></p>
+  <p>🦫 <a href=""> Create a package </a></p>
+  <p>🦫 <a href=""> Documentation </a></p>
+  <p>🦫 <a href=""> Imports </a></p>
+  <p>🦫 <a href=""> Main </a></p>
+  <p>🦫 <a href=""> Core packages </a></p>
 
 </details>
 
-  <p>🦫<a href=""> Code examples </a></p>
+  <p>🦫 <a href=""> Code examples </a></p>
 
+</details>
+
+ <details >
+  <summary>🧵 Threads 🧵</summary>
+	
+  <br>
+  <p>🦫 <a href=""> Undestanding concurrency </a></p>
+  <p>🦫 <a href=""> Goroutines </a></p>
+  <p>🦫 <a href=""> Channels function </a></p>
+  <p>🦫 <a href=""> Code examples </a></p>
+  
+</details>
+
+<details >
+  <summary>🤓 OOP 🤓</summary>
+	
+  <br>
+  <p>🦫 <a href=""> What is OOP? </a></p>
+  <p>🦫 <a href=""> Classes, objects and instances </a></p>
+  <p>🦫 <a href=""> Encapsulation </a></p>
+  <p>🦫 <a href=""> Abstraction </a></p>
+  <p>🦫 <a href=""> Composition pattern </a></p>
+  <p>🦫 <a href=""> Inheritance </a></p>
+  <p>🦫 <a href=""> Polymorphism </a></p>
+  <p>🦫 <a href=""> Code examples </a></p>
+  
 </details>
 
 </div>
