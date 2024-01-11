@@ -45,6 +45,20 @@
     <li>
       <a href="#syllabus">Syllabus</a>
     </li>
+    <ol>
+	<li>
+	    <a href="#-----first-steps--------the-basics-------hello-world-----variables-and-data-types-----println-function-----operators-----sequence-of-values-----reading-values----flow-controls-------conditionals-----switch-----loops-----break-and-continue---%EF%B8%8F-functions-and-pointers-%EF%B8%8F------declaring-functions-----anonymous-functions-----panic-functions-----recursive-functions-----variadic-functions-----recover-functions-----pointers---%EF%B8%8F-data-structures-%EF%B8%8F------arrays-----slices-----maps---%EF%B8%8F-structs-enums-and-interfaces-%EF%B8%8F------structs-----enums-----interfaces-----access-modifiers----packages-------create-a-package-----documentation-----imports-----main-----core-packages-----code-examples---">
+			    First steps
+	    </a>
+	</li>
+	<li>
+     	   <a href="#">Threads</a>
+        </li>
+	<li>
+     	   <a href="#">OOP</a>
+        </li>
+    </ol>
+   
   </ol>
 </div>
 
@@ -212,31 +226,35 @@
 </details>
   </h3>
 
- <details >
-  <summary>🧵 Threads 🧵</summary>
+ <h3>
+    <details >
+    <summary>🧵 Threads 🧵</summary>
 	
-  <br>
-  <p>🦫 <a href=""> Undestanding concurrency </a></p>
-  <p>🦫 <a href=""> Goroutines </a></p>
-  <p>🦫 <a href=""> Channels function </a></p>
-  <p>🦫 <a href=""> Code examples </a></p>
+   <br>
+   <p>🦫 <a href=""> Undestanding concurrency </a></p>
+   <p>🦫 <a href=""> Goroutines </a></p>
+   <p>🦫 <a href=""> Channels function </a></p>
+   <p>🦫 <a href=""> Code examples </a></p>
   
 </details>
+ </h3>
 
-<details >
-  <summary>🤓 OOP 🤓</summary>
+<h3>
+    <details >
+    <summary>🤓 OOP 🤓</summary>
 	
-  <br>
-  <p>🦫 <a href=""> What is OOP? </a></p>
-  <p>🦫 <a href=""> Classes, objects and instances </a></p>
-  <p>🦫 <a href=""> Encapsulation </a></p>
-  <p>🦫 <a href=""> Abstraction </a></p>
-  <p>🦫 <a href=""> Composition pattern </a></p>
-  <p>🦫 <a href=""> Inheritance </a></p>
-  <p>🦫 <a href=""> Polymorphism </a></p>
-  <p>🦫 <a href=""> Code examples </a></p>
+   <br>
+   <p>🦫 <a href=""> What is OOP? </a></p>
+   <p>🦫 <a href=""> Classes, objects and instances </a></p>
+   <p>🦫 <a href=""> Encapsulation </a></p>
+   <p>🦫 <a href=""> Abstraction </a></p>
+   <p>🦫 <a href=""> Composition pattern </a></p>
+   <p>🦫 <a href=""> Inheritance </a></p>
+   <p>🦫 <a href=""> Polymorphism </a></p>
+   <p>🦫 <a href=""> Code examples </a></p>
   
 </details>
+</h3>
 
 </div>
 
