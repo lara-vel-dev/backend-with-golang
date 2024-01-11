@@ -233,7 +233,7 @@
    <br>
    <p>🦫 <a href=""> Understanding concurrency </a></p>
    <p>🦫 <a href=""> Goroutines </a></p>
-   <p>🦫 <a href=""> Channels function </a></p>
+   <p>🦫 <a href=""> Channels </a></p>
    <p>🦫 <a href=""> Code examples </a></p>
   
 </details>
