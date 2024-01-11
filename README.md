@@ -130,7 +130,9 @@
 
 <div align="justify">
   <h2>Syllabus</h2>
-  <details >
+	
+  <h3>
+	  <details >
   <summary>🐾 First steps 🐾</summary>
   <br>
     
@@ -208,6 +210,7 @@
   <p>🦫 <a href=""> Code examples </a></p>
 
 </details>
+  </h3>
 
  <details >
   <summary>🧵 Threads 🧵</summary>
