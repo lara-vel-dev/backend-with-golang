@@ -55,7 +55,7 @@
      	   <a href="#---------threads---------understanding-concurrency------goroutines------channels-function------code-examples--">Threads</a>
         </li>
 	<li>
-     	   <a href="#">OOP</a>
+     	   <a href="#---------oop---------what-is-oop------classes-objects-and-instances------encapsulation------abstraction------composition-pattern------inheritance------polymorphism------code-examples-">OOP</a>
         </li>
     </ol>
    
