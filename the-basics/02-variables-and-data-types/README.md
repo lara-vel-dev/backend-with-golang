@@ -1,10 +1,25 @@
 # Variables and data types 
 NOTE: You have to have in mind the last code structure.
 
+## Data types in Go
+- `int` is used to declare integers.
+- `float32` is used to declare 32-bit floating numbers.
+- `float64` is used to declare 64-bit floating numbers.
+- `string` is used to declare strings.
+- `bool` is used to declare boolean values.
+### Example
+``` GO
+var a int
+var b float64
+var c float32
+var d string
+var e bool
+```
+
 ## Things you should know before declaring variables in Go
 - In Go, variables are explicitly declared and used by the compiler.
 - `var` or `const` declares 1 or more variables.
-## Example
+### Example
   ``` GO
   // with const
   const pi, gravity float64 = 3.14, 9.81
@@ -19,7 +34,7 @@ NOTE: You have to have in mind the last code structure.
 - Go will infer the type of initialized variables.
 - Variables declared without a corresponding initialization are zero-valued.
 - The := syntax is shorthand for declaring and initializing a variable. This syntax is only available inside functions.
-## Example
+### Example
   ``` GO
 
   // Calculating the area of a triangle
@@ -28,18 +43,3 @@ NOTE: You have to have in mind the last code structure.
 	area_triangle := base * height / 2
   ftm.println("The area is:", area_triangle)
   ```  
-
-## Data types in Go
-- `int` is used to declare integers.
-- `float32` is used to declare 32-bit floating numbers.
-- `float64` is used to declare 64-bit floating numbers.
-- `string` is used to declare strings.
-- `bool` is used to declare boolean values.
-## Example
-``` GO
-var a int
-var b float64
-var c float32
-var d string
-var e bool
-```
