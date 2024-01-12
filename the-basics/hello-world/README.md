@@ -1,6 +1,7 @@
 # Hello World
 
 The extention of the programs must be **(name.go)**
+Go is strictly typed
 
 ```  GO
 package main
