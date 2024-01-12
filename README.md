@@ -323,9 +323,9 @@
 <div align="center">
   <h2>Contributors</h2>
   <a align="center" href="https://github.com/EduDN" >
-    <img src="./gophers/Edu-gopher.png" alt="Eduardo as Gopher">
+    <img src="./gophers/Edu-gopher.png" alt="Eduardo as Gopher" width=300>
   </a>
   <a align="center" href="https://github.com/lara-vel-dev" >
-    <img src="./gophers/Yo.png" alt="Daniela as Gopher">
+    <img src="./gophers/Yo.png" alt="Daniela as Gopher" width=300>
   </a>
 </div>
