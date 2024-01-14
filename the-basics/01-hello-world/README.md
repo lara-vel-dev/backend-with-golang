@@ -18,7 +18,7 @@ Go has C-like Syntax which means that it shares syntactical similarities with th
 Let's start by creating a simple program and learning how to compile and execute it. 
 > [!NOTE]
 > Usually, the entry point file is called `main.go`.
-Copy the following code
+Copy the following code:
 ```  GO
 package main
 
@@ -39,11 +39,13 @@ There you go, you successfully compiled and executed your first Go program! :D
 
 > [!NOTE]
 > Newlines, spaces and tabs are known as whitespace (because you can't see them). Go mostly doesn't care about whitespace, we use it to make programs easier to read. (You could remove this lines and the program would behave in exactly the same way).
+>
+> Despite this, go has a built-in tool called `gofmt` that uses a predefined set of rules to format your code in a standard way. This is useful when working in a team, as it means that everyone's code looks the same. You can manually run `gofmt` on a file by running `gofmt -w file_name.go` in your terminal or you can set up your editor to automatically run `gofmt` every time you save a file (The official extension for VSCode does this by default).
 
-In Go, the entry point to a program has to be a function called main within a package main. The `main` package in the Go language contains a main function, which shows that the file is executable. Go has a number of built­in functions, such as println, which can be used without reference but we can’t get very far without making use of Go’s standard library. The `import` keyword is used to declare the packages that are used by the code in the file.
+In Go, the entry point to a program has to be a function called main within a package main. The `main` package in the Go language contains a main function, which shows that the file is executable. Go has a number of built­in functions, such as `println`, which can be used without reference but we can’t get very far without making use of Go’s standard library. The `import` keyword is used to declare the packages that are used by the code in the file.
 
 > [!IMPORTANT]
-> Go is strict about importing packages. It will not compile if you import a package but don’t use it.
+> Go is strict about importing packages and using variables. It will not compile if you import a package but don’t use it nor if you declare a variable but don’t use it.
 
 ## A Quick Look Over Go's Packages
 Go programs are read top to bottom, left to right. (like a book) The first line says this:
@@ -56,7 +58,7 @@ This is known as a “package declaration”. Every Go program must start with a
 `fmt` is pronounced “fumpt” and is one of Go’s core packages. It's mainly used for printing information to the terminal. The `fmt` package has a broader purpose like helping us format data, for this reason, it's sometimes referred to as the format package. The package has three sets of functions based on their usage
 
 ### Functions used to format and print data
-- `Print()` : When the arguments are strings, it concatenates them without any spacing and prints the result to the console. When none of the arguements is a string, the Print function adds spaces between them.
+- `Print()` : When the arguments are strings, it concatenates them without any spacing and prints the result to the console. When none of the arguments is a string, the Print function adds spaces between them.
 ```Go
 // String arguments
 fmt.Print("How", "are", "you", "?") // Output: Howareyou?
@@ -64,7 +66,7 @@ fmt.Print("How", "are", "you", "?") // Output: Howareyou?
 // None string arguments
 fmt.Print(10, 20) // Output: 10 20
 ```
-- `Println()` : Always adds a space between its arguements and appends a new line or a line break at the end.
+- `Println()` : Always adds a space between its arguments and appends a new line or a line break at the end.
 ```Go
 /*
     Output:
@@ -76,33 +78,64 @@ fmt.Println("My", "name", "is", "Gopher")
 fmt.Println("New", "line")
 ```
 - `Printf()` : Provides custom formatting of a string using one or more verbs. A verb is a placeholder for a named value (constant or variable) to be formatted according to these conventions:
-    - `%v` represents the named value in its default format.
+    - `%v` represents the named value in its default format. This is the more generic verb since it adapts to the type of the value and displays its string representation.
+        - `%+v` adds field names when printing `struct`s.
+    - `%s` expects the named value to be a string type.
     - `%d` expects the named value to be an integer type.
     - `%f` expects the named value to be a float type.
+    - `%t` expects the named value to be a boolean type.
     - `%T` represents the type for the named value.
+
+You can find a complete list of verbs [in the official documentation](https://pkg.go.dev/fmt).
+
  ```Go
-var name string ="Lukman"
-fmt.Printf("My name is %v", name) // Output: My name is Lukman
+package main
+
+import "fmt"
+
+// We haven't seen structs yet, but for now you can think of them as named collections of fields
+type Persona struct {
+	Name string
+	Age  int
+}
+
+func main() {
+	var name string = "Lukman"
+	fmt.Printf("My name is %s\n", name) // Output: My name is Lukman
+
+	var age int = 23
+	fmt.Printf("My age is %d\n", age) // Output: My age is 23
+
+	var person = Persona{
+		Name: name,
+		Age:  age,
+	}
+	fmt.Printf("%v\n", person)  // Output: {Lukman 23}
+	fmt.Printf("%+v\n", person) // Output: {Name:Lukman Age:23}
+}
+
 ```
   
 ### Functions that formats the data but prints nothing
 - `Sprint()` : Doesn’t print out anything. Rather, it returned a value. Afterward, we can use the returned value for later usage.
 ```Go
 var user string = "Gopher"
-var Feedback string = "Nice book!"
-var userFeedback string = fmt.Sprint(user, "feedback on your book is", feedback)
+var feedback string = "Nice book!"
 
-fmt.Print(userFeedback) // Output: Gopher feedback on your book is Nice book!
+// Please note that we needed to add the space between the arguments ourselves
+var userFeedback string = fmt.Sprint(user, " feedback on your book is: ", feedback)
+
+fmt.Println(userFeedback) // Output: Gopher feedback on your book is: Nice book!
 ```
 - `Sprintln()` : Works like fmt.Sprint() but it automatically includes spaces between the arguments for us (just like fmt.Println() and fmt.Print())
 ```Go
 var quote string = fmt.Sprintln("see here,", "no spaces!")
-fmt.Print(quote) // Prints see here, no spaces!
+fmt.Print(quote) // Prints: see here, no spaces!
 ```
 - `Sprintf()` : When we have to interpolate a string, without printing it, then we can use fmt.Sprintf(). Just like fmt.Printf(), fmt.Sprintf() can also use verbs.
 ```Go
 var user string = "userA"
-var winner string = fmt.Sprintf("The winner is… %v!", user)
+var winner string = fmt.Sprintf("The winner is… %s!", user)
 
 fmt.Print(winner) // Prints: The winner is is… userA!
 ```
