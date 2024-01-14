@@ -10,7 +10,7 @@
 ## C-like Syntax
 Go has C-like Syntax which means that it shares syntactical similarities with the C programming language. Go doesn't strictly adhere to the traditional C-like syntax, but it does share some similarities. Go has its unique features and design principles, it was developed with the aim of being simple, efficient, and easily readable, but some aspects that may be considered C-like are:
 - Go uses braces ({}) to define blocks of code. However, it does not require semicolons at the end of statements, making the code cleaner and less prone to errors.
-- Go follows a C-like approach to variable declarations, where the type comes after the variable name. `var x int`
+- Go follows a C-like approach to variable declarations, where the type comes after the variable name. `var name type`
 - Go supports if-else statements, loops (for and a variation of while), and switch statements for flow control, which aligns with the C-like paradigm.
 - Go incorporates common operators seen in C, including arithmetic, logical, and bitwise operators.
 
