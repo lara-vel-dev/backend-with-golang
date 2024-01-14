@@ -36,10 +36,20 @@ Open a shell/command prompt and run the program by entering:
 go run main.go
 ```
 
+> [!NOTE]
+> Newlines, spaces and tabs are known as whitespace (because you can't see them). Go mostly doesn't care about whitespace, we use it to make programs easier to read. (You could remove this lines and the program would behave in exactly the same way).
+
 In Go, the entry point to a program has to be a function called main within a package main. The `main` package in the Go language contains a main function, which shows that the file is executable. Go has a number of built­in functions, such as println, which can be used without reference but we can’t get very far without making use of Go’s standard library. The `import` keyword is used to declare the packages that are used by the code in the file.
 
 > [!IMPORTANT]
 > Go is strict about importing packages. It will not compile if you import a package but don’t use it.
+
+## A Quick Look Over Go's Packages
+Go programs are read top to bottom, left to right. (like a book) The first line says this:
+```Go
+package main
+```
+This is known as a “package declaration”. Every Go program must start with a package declaration. Packages are Go's way of organizing and reusing code. There are two types of Go programs: executables and libraries. Executable applications are the kinds of programs that we can run directly from the terminal. Libraries are collections of code that we package together so that we can use them in other programs. We will explore libraries in more detail later, for now just make sure to include this line in any program you write.
 
 ## "fmt" Package
 `fmt` is pronounced “fumpt” and is one of Go’s core packages. It's mainly used for printing information to the terminal. The `fmt` package has a broader purpose like helping us format data, for this reason, it's sometimes referred to as the format package. The package has three sets of functions based on their usage
