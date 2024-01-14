@@ -36,7 +36,7 @@ Open a shell/command prompt and run the program by entering:
 go run main.go
 ```
 
-In Go, the entry point to a program has to be a function called main within a package main. Go has a number of built­in functions, such as println, which can be used without reference but we can’t get very far without making use of Go’s standard library. The `import` keyword is used to declare the packages that are used by the code in the file.
+In Go, the entry point to a program has to be a function called main within a package main. The `main` package in the Go language contains a main function, which shows that the file is executable. Go has a number of built­in functions, such as println, which can be used without reference but we can’t get very far without making use of Go’s standard library. The `import` keyword is used to declare the packages that are used by the code in the file.
 
 > [!IMPORTANT]
 > Go is strict about importing packages. It will not compile if you import a package but don’t use it.
