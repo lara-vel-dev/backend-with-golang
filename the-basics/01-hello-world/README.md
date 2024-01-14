@@ -1,7 +1,12 @@
-# Hello World
+# Hello World!
 
-The extention of the programs must be **(name.go)**
-Go is strictly typed
+> [!IMPORTANT]
+> - The extention of the programs must be **(file_name.go)**
+> - Go is strictly typed, which means once you choose a type for a variable you can't change it later.
+
+> [!NOTE]
+> Go is a compiled language. Let's remember that compilation is the process of translating the source code that you write into a lower level language.
+ 
 
 ```  GO
 package main
