@@ -40,3 +40,19 @@ In Go, the entry point to a program has to be a function called main within a pa
 
 > [!IMPORTANT]
 > Go is strict about importing packages. It will not compile if you import a package but don’t use it.
+
+## "fmt" Package
+`fmt` is pronounced “fumpt” and is one of Go’s core packages. It's mainly used for printing information to the terminal. The `fmt` package has a broader purpose like helping us format data, for this reason, it's sometimes referred to as the format package. The package has three sets of functions based on their usage
+
+### Functions used to format and print data
+- Println()
+- Print()
+- Printf()
+  
+### Functions that formats the data but prints nothing
+- Sprint()
+- Sprintln()
+- Sprintf()
+
+### Functions to read user input from the terminal
+- Scan()
