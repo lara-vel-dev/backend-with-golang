@@ -56,3 +56,7 @@ In Go, the entry point to a program has to be a function called main within a pa
 
 ### Functions to read user input from the terminal
 - Scan()
+
+> [!NOTE]
+> If you’re ever stuck without internet access, you can get the documentation running locally via:
+> `godoc ­http=:6060` and pointing your browser to http://localhost:6060
