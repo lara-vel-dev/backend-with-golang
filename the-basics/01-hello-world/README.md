@@ -18,7 +18,7 @@ Go has C-like Syntax which means that it shares syntactical similarities with th
 Let's start by creating a simple program and learning how to compile and execute it. 
 > [!NOTE]
 > Usually, the entry point file is called `main.go`.
-
+Copy the following code
 ```  GO
 package main
 
@@ -35,6 +35,7 @@ Open a shell/command prompt and run the program by entering:
 ``` Shell
 go run main.go
 ```
+There you go, you successfully compiled and executed your first Go program! :D
 
 > [!NOTE]
 > Newlines, spaces and tabs are known as whitespace (because you can't see them). Go mostly doesn't care about whitespace, we use it to make programs easier to read. (You could remove this lines and the program would behave in exactly the same way).
