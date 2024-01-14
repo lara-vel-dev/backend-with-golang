@@ -110,6 +110,13 @@
   <br/>
 </div>
 
+> [!NOTE]
+> The Go tool suite is made up of several different commands and sub-commands. A list of those commands is available by typing:
+> ```Go
+> go help
+> ```
+
+
 **[⬆ Back to top](#table-of-contents)**
 
 <div align="justify">
