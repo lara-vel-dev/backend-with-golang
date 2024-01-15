@@ -94,22 +94,24 @@ package main
 import "fmt"
 
 // We haven't seen structs yet, but for now you can think of them as named collections of fields
-type Persona struct {
+type Person struct {
 	Name string
 	Age  int
 }
 
 func main() {
+
 	var name string = "Lukman"
 	fmt.Printf("My name is %s\n", name) // Output: My name is Lukman
 
 	var age int = 23
 	fmt.Printf("My age is %d\n", age) // Output: My age is 23
 
-	var person = Persona{
+	person1 := Person {
 		Name: name,
 		Age:  age,
 	}
+
 	fmt.Printf("%v\n", person)  // Output: {Lukman 23}
 	fmt.Printf("%+v\n", person) // Output: {Name:Lukman Age:23}
 }
