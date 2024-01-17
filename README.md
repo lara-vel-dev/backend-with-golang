@@ -166,7 +166,6 @@
   <br>
   <p>🦫 <a href="https://github.com/lara-vel-dev/backend-with-golang/blob/main/the-basics/01-hello-world/README.md"> Hello World! </a></p>
   <p>🦫 <a href="https://github.com/lara-vel-dev/backend-with-golang/blob/main/the-basics/02-variables-and-data-types/README.md"> Variables and data types </a></p>
-  <p>🦫 <a href=""> Println function </a></p>
   <p>🦫 <a href=""> Operators </a></p>
   <p>🦫 <a href=""> Sequence of values </a></p>
   <p>🦫 <a href=""> Reading values </a></p>
