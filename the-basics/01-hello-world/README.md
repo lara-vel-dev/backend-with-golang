@@ -162,4 +162,4 @@ fmt.Printf("%v is %d years old!", name, age) // Output: John is 25 years old!
 > If you’re ever stuck without internet access, you can get the documentation running locally via:
 > `godoc ­http=:6060` and pointing your browser to http://localhost:6060
 
-**[➡️ Next topic](https://github.com/lara-vel-dev/backend-with-golang/blob/main/the-basics/02-variables-and-data-types/README.md)**
+**[➡️ Next topic](https://github.com/lara-vel-dev/backend-with-golang/blob/main/the-basics/02-variables-and-data-types)**
