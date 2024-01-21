@@ -82,4 +82,14 @@ var d complex128
 	const height float64 = 10
 	area_triangle := base * height / 2
   ftm.println("The area is:", area_triangle)
-  ```  
+  ```
+
+<div>
+<a href="https://github.com/lara-vel-dev/backend-with-golang/blob/main/the-basics/01-hello-world" >
+	<strong>⬅️ Previous topic</strong>
+</a>
+<a href="https://github.com/lara-vel-dev/backend-with-golang/blob/main/the-basics/03-operators" >
+	<strong>➡️ Next topic</strong>
+</a>
+</div>
+
