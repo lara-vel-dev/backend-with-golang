@@ -26,9 +26,13 @@ import "fmt"
 
 func main() {
 
+    // Prints Hello world in Go
     fmt.Println("Hello World GOLANG :)")
 }
 ```
+
+> [!NOTE]
+> A line that starts with // is known as comment. The Go compiler ignores comments and helps us to understand how the code works. Go supports 2 different styles of comments: //is a single-line comment and /**/is a multi-line comment.
 
 Open a shell/command prompt and run the program by entering:
 
