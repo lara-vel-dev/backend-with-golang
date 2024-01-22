@@ -3,6 +3,7 @@
 > Don't forget to add the main function before adding the code below
 
 ## Data types in Go
+Data types are a set of related values that describe the operations that can be done on them and define the way they are stored. Go comes with several built-in data types.
 
 ### Basic types
 
