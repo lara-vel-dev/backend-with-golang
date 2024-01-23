@@ -58,7 +58,18 @@ var d complex128
 ```
 
 ### Strings
-A string is a sequence of characters with a definite length used to represent text. Go strings are made of individual bytes, usually one for each character. Strings can be created using double quotes or backticks. The difference between these is that double-quoted strings can't contain newlines and allow special escape sequences. 
+A string is a sequence of characters with a definite length used to represent text. Go strings are made of individual bytes, usually one for each character. Strings can be created using double quotes or backticks. The difference between these is that double-quoted strings can't contain newlines and allow special escape sequences. Some common operations with strings are:
+```Go
+// Finds length of a string
+len("Hello")
+
+// Access a particular character in the string
+"Hello"[3]
+
+// Concatenates 2 strings together
+"Hello " + "world"
+
+```
 
 ## Things you should know before declaring variables in Go
 - In Go, variables are explicitly declared and used by the compiler.
