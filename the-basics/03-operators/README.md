@@ -9,7 +9,7 @@
 | Remainder | % |
 
 <div>
-<a href="https://github.com/lara-vel-dev/backend-with-golang/blob/main/the-basics/01-hello-world" >
+<a href="https://github.com/lara-vel-dev/backend-with-golang/tree/main/the-basics/02-variables-and-data-types" >
 	<strong>⬅️ Previous topic</strong>
 </a>
 &emsp;
