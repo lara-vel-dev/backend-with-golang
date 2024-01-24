@@ -68,8 +68,42 @@ len("Hello")
 
 // Concatenates 2 strings together
 "Hello " + "world"
-
 ```
+
+Additionally, Go offers a built-in package called `strings` that provides many useful functions. You can read more about it [here](https://pkg.go.dev/strings). Some of the most common functions are:
+
+```Go
+// Returns true if the string contains the substring
+strings.Contains("Hello world", "world") // true
+
+// Replace a substring with another
+strings.Replace("Hello world world", "world", "replaced", 1) // Hello replaced world
+strings.Replace("Hello world world", "world", "replaced", 2) // Hello replaced replaced
+
+// Replace all occurrences of a substring
+strings.ReplaceAll("Hello world world", "world", "replaced") // Hello replaced replaced
+// Equivalent to: strings.Replace("Hello world world", "world", "replaced", -1) // Hello replaced replaced
+
+// Count the number of occurrences of a substring
+strings.Count("Hello world world", "world") // 2
+
+// Trim spaces from the beginning and end of the string
+strings.TrimSpace(" Hello world ") // Hello world
+// Equivalent to: strings.Trim(" Hello world ", " ") // Hello world
+
+// Trim a substring 
+strings.Trim("Hello world", "Hd") // ello worl
+strings.TrimLeft("Hello world", "Hd") // ello world
+strings.TrimRight("Hello world", "Hd") // Hello worl
+
+// Change the case of the string
+strings.ToUpper("Hello world") // HELLO WORLD
+strings.ToLower("Hello world") // hello world
+strings.ToTitle("Hello world") // HELLO WORLD
+```
+
+> [!NOTE]
+> In the last example, even though the `ToUpper` and `ToTitle` functions return the same result, they are not equivalent in some cases. For example, although the character `ǆ` (Unicode code point `U+01C6`) seems to be an string of two characters (`d` and `ž`), it is actually a single character (technically called a `digraph`). The `ToTitle` function will return `ǅ` (Unicode code point `U+01C5`), while the `ToUpper` function will return `Ǆ` (Unicode code point `U+01C4`).
 
 ## Things you should know before declaring variables in Go
 - In Go, variables are explicitly declared and used by the compiler.
