@@ -168,7 +168,7 @@
   <p>🦫 <a href="https://github.com/lara-vel-dev/backend-with-golang/blob/main/the-basics/02-variables-and-data-types/README.md"> Variables and data types </a></p>
   <p>🦫 <a href=""> Operators </a></p>
   <p>🦫 <a href=""> Sequence of values </a></p>
-  <p>🦫 <a href=""> Reading values </a></p>
+  <p>🦫 <a href="./the-basics/05-reading-values/README.md"> Reading values </a></p>
   
 </details>
   
