@@ -177,7 +177,7 @@
   <summary>🔁 Flow controls 🔁</summary>
 	
   <br>
-  <p>🦫 <a href=""> Conditionals </a></p>
+  <p>🦫 <a href="./flow-controls/01-conditionals/README.md"> Conditionals </a></p>
   <p>🦫 <a href=""> Switch </a></p>
   <p>🦫 <a href=""> Loops </a></p>
   <p>🦫 <a href=""> Break and Continue </a></p>
