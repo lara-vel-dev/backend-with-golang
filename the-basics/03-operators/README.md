@@ -257,7 +257,7 @@ Operators, like in many other programming languages, perform various operations 
 		<li><code>++</code> : Provide shorthand notations for incrementing a variable's value by 1.</li>
 		<li><code>--</code> : Provide shorthand notations for decrementing a variable's value by 1.</li>
 	</ul>
-	<table border='1'> 
+	<table border='1' align='center'> 
 		<thead>
 			<tr align='center'>
 				<td> <b>Operator</b> </td>
@@ -305,7 +305,7 @@ Operators, like in many other programming languages, perform various operations 
 		<li><code>|=</code> : Performs a bitwise OR operation between the variable on the left and the value on the right and assigns the result back to the variable.</li>
 		<li><code>^=</code> : Performs a bitwise XOR operation between the variable on the left and the value on the right and assigns the result back to the variable.</li>
 	</ul>
-	<table border='1'> 
+	<table border='1' align='center'> 
 	<thead>
 		<tr align='center'>
 			<td> <b>Operator</b> </td>
