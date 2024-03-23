@@ -109,8 +109,8 @@ strings.ToTitle("Hello world") // HELLO WORLD
 - In Go, variables are explicitly declared and used by the compiler.
 - A variable's name must start with a letter and may contain letters, numbers or underscore symbol.
 - We use cammelCase convention.
-  >[!NOTE] 
-  > Cammel case is a style for writing compound words in which the first letter of each new word or phrase is capitalized, for example `var lastName string` .
+>[!NOTE]
+> Cammel case is a style for writing compound words in which the first letter of each new word or phrase is capitalized, for example `var lastName string` .
 - `var` or `const` declares 1 or more variables.
 ### Example
   ``` GO
