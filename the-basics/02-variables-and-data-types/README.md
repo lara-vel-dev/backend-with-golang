@@ -107,6 +107,10 @@ strings.ToTitle("Hello world") // HELLO WORLD
 
 ## Things you should know before declaring variables in Go
 - In Go, variables are explicitly declared and used by the compiler.
+- A variable's name must start with a letter and may contain letters, numbers or underscore symbol.
+- We use cammelCase convention.
+  >[!NOTE] 
+  > Cammel case is a style for writing compound words in which the first letter of each new word or phrase is capitalized, for example `var lastName string` .
 - `var` or `const` declares 1 or more variables.
 ### Example
   ``` GO
@@ -133,8 +137,68 @@ strings.ToTitle("Hello world") // HELLO WORLD
   ftm.println("The area is:", triangleArea)
   ```
 
-### Naming variables
-In Go, a variable's name must start with a letter and may contain letters, numbers or underscore symbol. We use cammelCase convention, which is a style for writing compound words in which the first letter of each new word or phrase is capitalized, for example `var lastName string` .
+## Scope
+In Go, scope refers to the part of the program where a variable or identifier is accessible. It determines where you can use that variable and modify its value. There are 3 types of scope
+- **Local**: Are declared within functions, blocks of code enclosed in curly braces `{}` and are only accesible within the code block where they are declared.
+  ```go
+  package main
+  
+  import "fmt"
+
+  func addNumbers() {
+
+    // Local variable
+    var sum int
+    sum = 5 + 9
+  }
+
+
+  func main() {
+
+    addNumbers()
+
+    // Can't access sum out of its local scope
+    fmt.Println("Sum is", sum)
+  }
+  ```
+- **Global**: Are declared outside of any function but not within a package block. These variables are accessible from any part of the program.
+  ```go
+  package main
+  
+  import "fmt"
+
+  // Declare global variable before main function
+  var sum int
+
+  func addNumbers () {
+
+    // Local variable
+    sum = 9 + 5
+  }
+
+
+  func main() {
+
+    addNumbers()
+
+    // Can access sum
+    fmt.Println("Sum is", sum)
+  }
+  ```
+- **Package**: Are declared outside of any function but within a package block. These variables are accessible throughout the entire package, which encompasses all the Go source code files within the same directory.
+  ```go
+  package greetings // Package name
+
+  var message string = "Hello, from the package!"
+
+  func printMessage() {
+    fmt.Println(message)
+  }
+
+  func main() {
+    fmt.Println(message) // Accessing the package-level variable from main
+  }
+  ```
 
 <div>
 <a href="https://github.com/lara-vel-dev/backend-with-golang/blob/main/the-basics/01-hello-world" >
