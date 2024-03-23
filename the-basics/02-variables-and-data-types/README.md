@@ -110,11 +110,11 @@ strings.ToTitle("Hello world") // HELLO WORLD
 - `var` or `const` declares 1 or more variables.
 ### Example
   ``` GO
-  // with const
+  // With const
   const pi, gravity float64 = 3.14, 9.81
   ftm.Println(pi,gravity)
 
- // with var
+ // With var
   var age, year = 23, 2024
   ftm.Println(age, year)
   ```
@@ -129,9 +129,12 @@ strings.ToTitle("Hello world") // HELLO WORLD
   // Calculating the area of a triangle
 	const base float64 = 20
 	const height float64 = 10
-	area_triangle := base * height / 2
-  ftm.println("The area is:", area_triangle)
+	triangleArea := base * height / 2
+  ftm.println("The area is:", triangleArea)
   ```
+
+### Naming variables
+In Go, a variable's name must start with a letter and may contain letters, numbers or underscore symbol. We use cammelCase convention, which is a style for writing compound words in which the first letter of each new word or phrase is capitalized, for example `var lastName string` .
 
 <div>
 <a href="https://github.com/lara-vel-dev/backend-with-golang/blob/main/the-basics/01-hello-world" >
