@@ -371,7 +371,7 @@ Operators, like in many other programming languages, perform various operations 
 	<strong>⬅️ Previous topic</strong>
 </a>
 &emsp;
-<a href="https://github.com/lara-vel-dev/backend-with-golang/blob/main/the-basics/03-operators" >
+<a href="https://github.com/lara-vel-dev/backend-with-golang/blob/main/the-basics/04-reading-values/README.md" >
 	<strong>➡️ Next topic</strong>
 </a>
 </div>
