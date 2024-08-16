@@ -81,3 +81,13 @@ In the example above, the `getPlayerExperience` function returns two values: the
 
 > [!NOTE]
 > Probably, the error handling could be improved, but this is just an example of how to use the ifs with a short statement. 
+
+<div>
+<a href="https://github.com/lara-vel-dev/backend-with-golang/blob/main/01-the-basics/04-reading-values/README.md" >
+	<strong>⬅️ Previous topic</strong>
+</a>
+&emsp;
+<a href="https://github.com/lara-vel-dev/backend-with-golang/blob/main/02-flow-controls/02-switch/README.md" >
+	<strong>➡️ Next topic</strong>
+</a>
+</div>
