@@ -126,3 +126,13 @@ func main() {
 	}
 }
 ```
+
+<div>
+<a href="https://github.com/lara-vel-dev/backend-with-golang/blob/main/the-basics/03-operators" >
+	<strong>⬅️ Previous topic</strong>
+</a>
+&emsp;
+<a href="https://github.com/lara-vel-dev/backend-with-golang/blob/main/flow-controls/01-conditionals" >
+	<strong>➡️ Next topic</strong>
+</a>
+</div>
