@@ -367,11 +367,11 @@ Operators, like in many other programming languages, perform various operations 
 </div>
 
 <div>
-<a href="./01-the-basics/02-variables-and-data-types/README.md" >
+<a href="https://github.com/lara-vel-dev/backend-with-golang/blob/main/01-the-basics/02-variables-and-data-types/README.md" >
 	<strong>⬅️ Previous topic</strong>
 </a>
 &emsp;
-<a href="./01-the-basics/04-reading-values/README.md" >
+<a href="https://github.com/lara-vel-dev/backend-with-golang/blob/main/01-the-basics/04-reading-values/README.md" >
 	<strong>➡️ Next topic</strong>
 </a>
 </div>

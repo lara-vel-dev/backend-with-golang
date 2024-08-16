@@ -201,11 +201,11 @@ In Go, scope refers to the part of the program where a variable or identifier is
   ```
 
 <div>
-<a href="./01-the-basics/01-hello-world/README.md" >
+<a href="https://github.com/lara-vel-dev/backend-with-golang/blob/main/01-the-basics/01-hello-world/README.md" >
 	<strong>⬅️ Previous topic</strong>
 </a>
 &emsp;
-<a href="./01-the-basics/03-operators/README.md" >
+<a href="https://github.com/lara-vel-dev/backend-with-golang/blob/main/01-the-basics/03-operators/README.md" >
 	<strong>➡️ Next topic</strong>
 </a>
 </div>
