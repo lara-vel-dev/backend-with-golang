@@ -164,10 +164,10 @@
   <summary>🍼 The basics 🍼</summary>
 	
   <br>
-  <p>🦫 <a href="https://github.com/lara-vel-dev/backend-with-golang/blob/main/the-basics/01-hello-world/README.md"> Hello World! </a></p>
-  <p>🦫 <a href="https://github.com/lara-vel-dev/backend-with-golang/blob/main/the-basics/02-variables-and-data-types/README.md"> Variables and data types </a></p>
-  <p>🦫 <a href="https://github.com/lara-vel-dev/backend-with-golang/tree/main/the-basics/03-operators"> Operators </a></p>
-  <p>🦫 <a href="./the-basics/04-reading-values/README.md"> Reading values </a></p>
+  <p>🦫 <a href="./01-the-basics/01-hello-world/README.md"> Hello World! </a></p>
+  <p>🦫 <a href="./01-the-basics/02-variables-and-data-types/README.md"> Variables and data types </a></p>
+  <p>🦫 <a href="./01-the-basics/03-operators/README.md"> Operators </a></p>
+  <p>🦫 <a href="./01-the-basics/04-reading-values/README.md"> Reading values </a></p>
   
 </details>
   
@@ -176,7 +176,7 @@
   <summary>🔁 Flow controls 🔁</summary>
 	
   <br>
-  <p>🦫 <a href="./flow-controls/01-conditionals/README.md"> Conditionals </a></p>
+  <p>🦫 <a href="./02-flow-controls/01-conditionals/README.md"> Conditionals </a></p>
   <p>🦫 <a href=""> Switch </a></p>
   <p>🦫 <a href=""> Loops </a></p>
   <p>🦫 <a href=""> Break and Continue </a></p>
