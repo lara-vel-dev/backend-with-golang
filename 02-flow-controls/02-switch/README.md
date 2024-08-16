@@ -52,3 +52,12 @@ func main() {
 }
 ```
 
+<div>
+<a href="https://github.com/lara-vel-dev/backend-with-golang/blob/main/02-flow-controls/01-conditionals/README.md" >
+	<strong>⬅️ Previous topic</strong>
+</a>
+&emsp;
+<a href="https://github.com/lara-vel-dev/backend-with-golang/blob/main/02-flow-controls/03-loops/README.md" >
+	<strong>➡️ Next topic</strong>
+</a>
+</div>
