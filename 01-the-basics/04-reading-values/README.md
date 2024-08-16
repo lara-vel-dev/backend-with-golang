@@ -91,7 +91,10 @@ func main() {
 
 ## Using the `bufio` package
 
-If you need to read multiple lines or a single line that may contain spaces, you can use the `bufio` package: 
+If you need to read multiple lines or a single line that may contain spaces, you can use the `bufio` package. The `bufio` package implements buffered I/O, this is a process that improves the efficiency of I/O operations. The buffered I/O is a technique that temporary stores the result of an input/output operation in user-space before transmitting it to the kernel (when writing) or before providing it to the process (when reading). This is helpful because it minimize the number of system calls and can block-align I/O, which improves the performance of the application.
+
+> [!NOTE]
+> We will dive in more about the `bufio` package in the `useful packages` section.
 
 ```go
 package main
