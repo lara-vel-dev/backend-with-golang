@@ -47,7 +47,7 @@
     </li>
     <ol>
 	<li>
-	    <a href="#-----first-steps--------the-basics-------hello-world-----variables-and-data-types-----operators-----reading-values----flow-controls-------conditionals-----switch-----loops-----break-and-continue---%EF%B8%8F-functions-and-pointers-%EF%B8%8F------declaring-functions-----anonymous-functions-----panic-functions-----recursive-functions-----variadic-functions-----recover-functions-----pointers---%EF%B8%8F-data-structures-%EF%B8%8F------arrays-----slices-----maps---%EF%B8%8F-structs-enums-and-interfaces-%EF%B8%8F------structs-----enums-----interfaces-----access-modifiers----packages-------create-a-package-----documentation-----imports-----main-----core-packages-----code-examples---">
+	    <a href="#-----first-steps--------the-basics-------hello-world-----variables-and-data-types-----operators-----reading-values----flow-controls-------conditionals-----switch-----loops-----break-continue-and-goto---%EF%B8%8F-functions-and-pointers-%EF%B8%8F------declaring-functions-----anonymous-functions-----panic-functions-----recursive-functions-----variadic-functions-----recover-functions-----pointers---%EF%B8%8F-data-structures-%EF%B8%8F------arrays-----slices-----maps---%EF%B8%8F-structs-enums-and-interfaces-%EF%B8%8F------structs-----enums-----interfaces-----access-modifiers----packages-------create-a-package-----documentation-----imports-----main-----core-packages-----more-useful-packages-----code-examples---">
 			    First steps
 	    </a>
 	</li>
@@ -179,7 +179,7 @@
   <p>🦫 <a href="./02-flow-controls/01-conditionals/README.md"> Conditionals </a></p>
   <p>🦫 <a href="./02-flow-controls/02-switch/README.md"> Switch </a></p>
   <p>🦫 <a href=""> Loops </a></p>
-  <p>🦫 <a href=""> Break and Continue </a></p>
+  <p>🦫 <a href=""> Break, Continue and Goto </a></p>
 </details>
 
 <details >
