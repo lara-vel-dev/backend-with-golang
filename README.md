@@ -178,8 +178,8 @@
   <br>
   <p>🦫 <a href="./02-flow-controls/01-conditionals/README.md"> Conditionals </a></p>
   <p>🦫 <a href="./02-flow-controls/02-switch/README.md"> Switch </a></p>
-  <p>🦫 <a href=""> Loops </a></p>
-  <p>🦫 <a href=""> Break, Continue and Goto </a></p>
+  <p>🦫 <a href="./02-flow-controls/03-loops/README.md"> Loops </a></p>
+  <p>🦫 <a href="./02-flow-controls/04-break-continue-goto/README.md"> Break, Continue and Goto </a></p>
 </details>
 
 <details >
