@@ -59,7 +59,7 @@ for index, value := range datastructure {
     fmt.Println(value)
 }
 ```
-The `index` is the value that is been accesed, `value` is the actual value that we have in each iteration and `datastructure` is used for holding the values that are accesed by the loop.
+The `index` is the value that is been accesed, `value` is the actual value that we have in each iteration and `data structure` is used for holding the values that are accesed by the loop.
 
 ### For-range with arrays and slices
 We can use the `for-range` loop to access the individual index and elements of an array.
