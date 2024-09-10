@@ -35,7 +35,7 @@ for number <= 5 {
 ```
 
 ## Do-while loop
-The `do-while` loop is a variant of the `while` loop. This execute the code block once, before checking if the condition, then it will repeat the loop as long as the condition is `true`. We use the same `for` loop to provide the functionality.
+The `do-while` loop is a variant of the `while` loop. This execute the code block once, before checking the condition, then it will repeat the loop as long as the condition is `true`. We use the same `for` loop to provide the functionality.
 
 ### Example 
 ```Go 
