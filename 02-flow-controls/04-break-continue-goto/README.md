@@ -123,6 +123,6 @@ End:
 6. **Avoid Overuse:** Only use `goto` when it genuinely improves readability or avoids complexity.
 
 ### When not to use
-- To replace standard loops (for, while) or control structures.
+- To replace standard loops or control structures.
 - For regular program flow or logic, as it can lead to unmaintainable code.
 - When it reduces clarity—prioritize readability and structure.
