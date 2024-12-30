@@ -137,6 +137,82 @@ strings.ToTitle("Hello world") // HELLO WORLD
   ftm.println("The area is:", triangleArea)
   ```
 
+## Type-casting
+Type casting, or type convertion, is the process of converting a value from one data type to another. This is necessary when working with values of different types to ensure compatibility in operations or functions. 
+
+The syntax for general type casting is simple, just use that other type name as a function to convert that value
+```go
+// value := typeName(otherTypeName)
+integer := int(21.425) // casting to integer
+```
+
+> [!NOTE]
+> Any type can be converted to another type but taht does not guarantee that the value will remain intact or in fact perserved at all. 
+
+### Implicit type convertion
+Unlike other languages, Go does not support implicit type conversion. Although when dividing numbers, implicit conversions happen depending on the scenario. So we need to be very careful about what type to use where.
+
+### Basic type-casting
+Anywhere we need to change the type of the variable, the typecasting is needed. Sometimes typecasting may not be direct as discussed before.
+```go
+package main
+
+import "fmt"
+
+func main() {
+  // int --> float
+  var a int = 42
+  f := float64(a)
+}
+``` 
+
+There is a package called `strconv` which can be used to convert between string and int values.
+```go
+package main
+
+import (
+  "fmt"
+  "strconv"
+)
+
+func main() {
+  var s string = "21"
+  v, _ := strconv.Atoi(s) // converts string to int
+
+  var i int = 42
+  str := strconv.Itoa(i) // converts int to string
+}
+``` 
+
+Strings are slices of bytes, so both can be converted to each other with minimal effort.
+```go 
+package main
+
+import "fmt"
+
+func main() {
+  var s string = "Hello World"
+
+  var b []byte = []byte(s) // converts to bytes
+  fmt.Println(b) // [72 101 108 108 111 32 87 111 114 108 100] ASCII
+
+  ss := string(b) // converts to string
+  fmt.Println(ss) // Hello World
+}
+```
+
+During division, types are converted implicitly.
+```go
+package main
+
+import main() {
+  a := 6/3 // Both are int, a is int
+  f := 6.3/3 // float and int, f is float
+
+  fmt.Println(a, f) // 2 2.1
+}
+``` 
+
 ## Scope
 In Go, scope refers to the part of the program where a variable or identifier is accessible. It determines where you can use that variable and modify its value. There are 3 types of scope
 - **Local**: Are declared within functions, blocks of code enclosed in curly braces `{}` and are only accesible within the code block where they are declared.

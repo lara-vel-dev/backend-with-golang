@@ -289,8 +289,15 @@
    <br>
    <p>🦫 <a href=""> REST </a></p>
    <p>🦫 <a href=""> SOAP </a></p>
-   <p>🦫 <a href=""> Authentication </a></p>
-   
+
+   <details>
+   <summary>🔑 Authentication 🔑</summary>
+   <p>🦫 <a href=""> JWT </a></p>
+   <p>🦫 <a href=""> OAuth </a></p>
+   <p>🦫 <a href=""> Basic Authentication </a></p>
+   <p>🦫 <a href=""> Token Authentication </a></p>
+   <p>🦫 <a href=""> Cookie based auth </a></p>
+   </details>
 </details>
 
 <details >
